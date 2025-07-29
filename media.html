@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About Mujahid</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    picture img {
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+    }
+    nav a {
+      margin-right: 15px;
+      text-decoration: none;
+      color: blue;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="table.html">Courses Table</a>
+    <a href="media.html">About Me (Media)</a>
+  </nav>
+  <hr>
+
+  <h1>Hello, I'm Ashiru Mujahid Dolapo</h1>
+
+  <!-- Responsive Picture -->
+  <picture>
+    <source media="(min-width: 1024px)" srcset="laptop.jpg">
+    <source media="(min-width: 768px)" srcset="tablet.jpg">
+    <source media="(max-width: 767px)" srcset="mobile.jpg">
+    <img src="default.jpg" alt="Photo of Mujahid">
+  </picture>
+
+  <p>I am a serving corps member and an aspiring cloud engineer. I believe in the power of technology to change lives, and I'm building the skills to contribute meaningfully to the tech ecosystem.</p>
+
+  <!-- Audio Element -->
+  <audio controls>
+    <source src="audio.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <!-- Video Element -->
+  <video width="320" height="240" controls>
+    <source src="video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+</body>
+</html>
